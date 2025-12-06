@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "ANEF 状态查询"
+    },
+    "appDesc": {
+        "message": "直接查询您的 ANEF 居留申请状态。"
+    },
+    "loading": {
+        "message": "正在查询状态..."
+    },
+    "error": {
+        "message": "获取状态时出错。"
+    },
+    "retry": {
+        "message": "重试"
+    },
+    "loginRequired": {
+        "message": "请先登录 ANEF。"
+    },
+    "loginBtn": {
+        "message": "去登录"
+    },
+    "statusLabel": {
+        "message": "状态"
+    },
+    "dateLabel": {
+        "message": "日期"
+    },
+    "refresh": {
+        "message": "刷新"
+    },
+    "noData": {
+        "message": "无数据"
+    },
+    "unknownDate": {
+        "message": "日期未知"
+    },
+    "typeLabel": {
+        "message": "类型"
+    },
+    "numLabel": {
+        "message": "号码"
+    },
+    "formLabel": {
+        "message": "表格"
+    },
+    "catLabel": {
+        "message": "类别"
+    },
+    "depositLabel": {
+        "message": "提交日期"
+    }
+}

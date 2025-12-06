@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #000091; /* French government blue-ish */
+  --text-color: #161616;
+  --bg-color: #f5f5fe;
+  --card-bg: #ffffff;
+  --error-color: #ba1a1a;
+  --success-color: #1b5e20;
+}
+
+body {
+  width: 320px;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+}
+
+header {
+  background-color: var(--card-bg);
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+main {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.state-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 12px;
+}
+
+/* Loading */
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #e0e0e0;
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Buttons */
+button, .button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+button:hover, .button:hover {
+  opacity: 0.9;
+}
+
+/* Status Card */
+.status-card {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 12px;
+}
+
+.status-card .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 0.5px;
+}
+
+.status-card h2 {
+  margin: 8px 0 0;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.details {
+  width: 100%;
+  font-size: 13px;
+  color: #444;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}

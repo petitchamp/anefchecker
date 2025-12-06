@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "Statut ANEF"
+    },
+    "appDesc": {
+        "message": "Vérifiez directement le statut de votre demande de séjour ANEF."
+    },
+    "loading": {
+        "message": "Vérification du statut..."
+    },
+    "error": {
+        "message": "Erreur lors de la récupération du statut."
+    },
+    "retry": {
+        "message": "Réessayer"
+    },
+    "loginRequired": {
+        "message": "Veuillez d'abord vous connecter à l'ANEF."
+    },
+    "loginBtn": {
+        "message": "Se connecter"
+    },
+    "statusLabel": {
+        "message": "Statut"
+    },
+    "dateLabel": {
+        "message": "Date"
+    },
+    "refresh": {
+        "message": "Actualiser"
+    },
+    "noData": {
+        "message": "Aucune donnée"
+    },
+    "unknownDate": {
+        "message": "Date inconnue"
+    },
+    "typeLabel": {
+        "message": "Type"
+    },
+    "numLabel": {
+        "message": "Numéro"
+    },
+    "formLabel": {
+        "message": "Formulaire"
+    },
+    "catLabel": {
+        "message": "Catégorie"
+    },
+    "depositLabel": {
+        "message": "Dépôt"
+    }
+}

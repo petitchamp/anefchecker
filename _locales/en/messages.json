@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "ANEF Status Checker"
+    },
+    "appDesc": {
+        "message": "Check your ANEF residency application status directly."
+    },
+    "loading": {
+        "message": "Checking status..."
+    },
+    "error": {
+        "message": "Error fetching status."
+    },
+    "retry": {
+        "message": "Retry"
+    },
+    "loginRequired": {
+        "message": "Please log in to ANEF first."
+    },
+    "loginBtn": {
+        "message": "Go to Login"
+    },
+    "statusLabel": {
+        "message": "Status"
+    },
+    "dateLabel": {
+        "message": "Date"
+    },
+    "refresh": {
+        "message": "Refresh"
+    },
+    "noData": {
+        "message": "No Data"
+    },
+    "unknownDate": {
+        "message": "Unknown Date"
+    },
+    "typeLabel": {
+        "message": "Type"
+    },
+    "numLabel": {
+        "message": "Number"
+    },
+    "formLabel": {
+        "message": "Form"
+    },
+    "catLabel": {
+        "message": "Category"
+    },
+    "depositLabel": {
+        "message": "Deposit Date"
+    }
+}
