@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #000091; /* French government blue-ish */
+  --primary-color: #004990;
+  /* French government blue-ish */
   --text-color: #161616;
   --bg-color: #f5f5fe;
   --card-bg: #ffffff;
@@ -25,7 +26,7 @@ body {
 header {
   background-color: var(--card-bg);
   padding: 16px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -68,11 +69,14 @@ main {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Buttons */
-button, .button {
+button,
+.button {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -85,7 +89,8 @@ button, .button {
   transition: opacity 0.2s;
 }
 
-button:hover, .button:hover {
+button:hover,
+.button:hover {
   opacity: 0.9;
 }
 
@@ -95,7 +100,7 @@ button:hover, .button:hover {
   padding: 16px;
   border-radius: 8px;
   width: 100%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 12px;
 }
 

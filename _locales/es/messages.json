@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "Verificador de Estado ANEF"
+    },
+    "appDesc": {
+        "message": "Verifique directamente el estado de su solicitud de residencia ANEF."
+    },
+    "loading": {
+        "message": "Verificando estado..."
+    },
+    "error": {
+        "message": "Error al obtener el estado."
+    },
+    "retry": {
+        "message": "Reintentar"
+    },
+    "loginRequired": {
+        "message": "Por favor, inicie sesión en ANEF primero."
+    },
+    "loginBtn": {
+        "message": "Ir a Iniciar Sesión"
+    },
+    "statusLabel": {
+        "message": "Estado"
+    },
+    "dateLabel": {
+        "message": "Fecha"
+    },
+    "refresh": {
+        "message": "Actualizar"
+    },
+    "noData": {
+        "message": "Sin Datos"
+    },
+    "unknownDate": {
+        "message": "Fecha Desconocida"
+    },
+    "typeLabel": {
+        "message": "Tipo"
+    },
+    "numLabel": {
+        "message": "Número"
+    },
+    "formLabel": {
+        "message": "Formulario"
+    },
+    "catLabel": {
+        "message": "Categoría"
+    },
+    "depositLabel": {
+        "message": "Fecha de Envío"
+    }
+}

@@ -1,0 +1,105 @@
+#anef-status-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 999999;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    color: #161616;
+}
+
+.anef-header {
+    background: #004990;
+    color: white;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anef-header h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#anef-minimize {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+}
+
+#anef-content {
+    padding: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.anef-state {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.anef-spinner {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #eee;
+    border-top-color: #004990;
+    border-radius: 50%;
+    animation: anef-spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes anef-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.anef-main-status h2 {
+    color: #004990;
+    margin: 4px 0 12px;
+    font-size: 18px;
+}
+
+.anef-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+#anef-content p {
+    margin: 4px 0;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+#anef-content button:not(#anef-minimize) {
+    background-color: #004990;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+#anef-content button:hover:not(#anef-minimize) {
+    opacity: 0.9;
+}

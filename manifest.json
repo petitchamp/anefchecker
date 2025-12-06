@@ -17,6 +17,19 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://administration-etrangers-en-france.interieur.gouv.fr/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
     "host_permissions": [
         "https://administration-etrangers-en-france.interieur.gouv.fr/*"
     ]

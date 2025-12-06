@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "ANEF فحص حالة"
+    },
+    "appDesc": {
+        "message": "ANEF تحقق من حالة طلب الإقامة الخاص بك في"
+    },
+    "loading": {
+        "message": "جاري التحقق من الحالة..."
+    },
+    "error": {
+        "message": "خطأ في جلب الحالة."
+    },
+    "retry": {
+        "message": "إعادة المحاولة"
+    },
+    "loginRequired": {
+        "message": "أولاً ANEF يرجى تسجيل الدخول إلى"
+    },
+    "loginBtn": {
+        "message": "الذهاب لتسجيل الدخول"
+    },
+    "statusLabel": {
+        "message": "الحالة"
+    },
+    "dateLabel": {
+        "message": "التاريخ"
+    },
+    "refresh": {
+        "message": "تحديث"
+    },
+    "noData": {
+        "message": "لا توجد بيانات"
+    },
+    "unknownDate": {
+        "message": "تاريخ غير معروف"
+    },
+    "typeLabel": {
+        "message": "النوع"
+    },
+    "numLabel": {
+        "message": "رقم"
+    },
+    "formLabel": {
+        "message": "استمارة"
+    },
+    "catLabel": {
+        "message": "فئة"
+    },
+    "depositLabel": {
+        "message": "تاريخ الإيداع"
+    }
+}

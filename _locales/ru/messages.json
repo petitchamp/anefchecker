@@ -1,0 +1,53 @@
+{
+    "appName": {
+        "message": "Проверка статуса ANEF"
+    },
+    "appDesc": {
+        "message": "Проверьте статус вашего заявления на вид на жительство ANEF напрямую."
+    },
+    "loading": {
+        "message": "Проверка статуса..."
+    },
+    "error": {
+        "message": "Ошибка получения статуса."
+    },
+    "retry": {
+        "message": "Повторить"
+    },
+    "loginRequired": {
+        "message": "Пожалуйста, войдите в ANEF сначала."
+    },
+    "loginBtn": {
+        "message": "Войти"
+    },
+    "statusLabel": {
+        "message": "Статус"
+    },
+    "dateLabel": {
+        "message": "Дата"
+    },
+    "refresh": {
+        "message": "Обновить"
+    },
+    "noData": {
+        "message": "Нет данных"
+    },
+    "unknownDate": {
+        "message": "Неизвестная дата"
+    },
+    "typeLabel": {
+        "message": "Тип"
+    },
+    "numLabel": {
+        "message": "Номер"
+    },
+    "formLabel": {
+        "message": "Форма"
+    },
+    "catLabel": {
+        "message": "Категория"
+    },
+    "depositLabel": {
+        "message": "Дата подачи"
+    }
+}
